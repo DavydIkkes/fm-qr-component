@@ -1,0 +1,50 @@
+:root {
+    /* Colors */
+    --slate-300: #D5E1EF;
+    --slate-500: #68778D;
+    --slate-900: #1F314F;
+    --white: #FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--slate-300);
+    text-align: center;
+}
+
+main {
+    width: 320px;
+    margin: 100px auto;
+    border-radius: 20px;
+    background-color: var(--white);
+    padding: 16px 16px 40px;
+}
+
+img {
+    width: 288px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: var(--slate-900);
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
+    margin-bottom: 16px;
+}
+
+p {
+    color: var(--slate-500);
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    padding: 0 10px;
+}
